@@ -1,0 +1,29 @@
+<!DOCTYPE Suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Create Sheet Tests">
+
+    <test name="Create Sheet WS Tests - positive scenarios"
+          preserve-order="true">
+        <groups>
+            <run>
+                <include name="CREATE_SHEET_VALID_SCENARIOS"></include>
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="com.smartsheet.internal.functional.TestCreateSheet" />
+        </classes>
+    </test>
+
+    <test name="Create Sheet WS Tests - negative scenarios"
+          preserve-order="true">
+        <groups>
+            <run>
+                <include name="CREATE_SHEET_INVALID_SCENARIOS"></include>
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="com.smartsheet.internal.functional.TestCreateSheet" />
+        </classes>
+    </test>
+</suite>
