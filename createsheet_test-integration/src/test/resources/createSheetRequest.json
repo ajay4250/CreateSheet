@@ -1,0 +1,13 @@
+{
+  "name": "AjayTestSheet",
+  "columns": [{
+    "title": "Favorite",
+    "type": "CHECKBOX",
+    "symbol": "STAR"
+  },
+    {
+      "title": "Primary Column",
+      "primary": true,
+      "type": "TEXT_NUMBER"
+    }]
+}

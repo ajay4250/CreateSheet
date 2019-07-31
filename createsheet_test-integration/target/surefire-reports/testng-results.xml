@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="25245" started-at="2019-07-31T23:36:08Z" finished-at="2019-07-31T23:36:33Z">
+    <groups>
+      <group name="CREATE_SHEET_INVALID_SCENARIOS">
+        <method signature="TestCreateSheet.Test03_CreateSheetInSheetsFolderWithNoSheetName()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test03_CreateSheetInSheetsFolderWithNoSheetName" class="com.smartsheet.internal.functional.TestCreateSheet"/>
+        <method signature="TestCreateSheet.Test04_CreateSheetInSheetsFolderWithInvalidSecurityToken()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test04_CreateSheetInSheetsFolderWithInvalidSecurityToken" class="com.smartsheet.internal.functional.TestCreateSheet"/>
+        <method signature="TestCreateSheet.Test05_CreateSheetInSheetsFolderWithNoSecurityToken()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test05_CreateSheetInSheetsFolderWithNoSecurityToken" class="com.smartsheet.internal.functional.TestCreateSheet"/>
+        <method signature="TestCreateSheet.Test06_CreateSheetInSheetsFolderWithNoContentType()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test06_CreateSheetInSheetsFolderWithNoContentType" class="com.smartsheet.internal.functional.TestCreateSheet"/>
+        <method signature="TestCreateSheet.Test07_CreateSheetInSheetsFolderWithInvalidContentType()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test07_CreateSheetInSheetsFolderWithInvalidContentType" class="com.smartsheet.internal.functional.TestCreateSheet"/>
+        <method signature="TestCreateSheet.Test08_CreateSheetInInvalidFolder()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test08_CreateSheetInInvalidFolder" class="com.smartsheet.internal.functional.TestCreateSheet"/>
+        <method signature="TestCreateSheet.Test09_CreateSheetInInvalidWorkspace()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test09_CreateSheetInInvalidWorkspace" class="com.smartsheet.internal.functional.TestCreateSheet"/>
+      </group> <!-- CREATE_SHEET_INVALID_SCENARIOS -->
+      <group name="CREATE_SHEET_VALID_SCENARIOS">
+        <method signature="TestCreateSheet.Test00_CreateSheetInSheetsFolder()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test00_CreateSheetInSheetsFolder" class="com.smartsheet.internal.functional.TestCreateSheet"/>
+        <method signature="TestCreateSheet.Test01_CreateSheetInFolder()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test01_CreateSheetInFolder" class="com.smartsheet.internal.functional.TestCreateSheet"/>
+        <method signature="TestCreateSheet.Test02_CreateSheetInWorkspace()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test02_CreateSheetInWorkspace" class="com.smartsheet.internal.functional.TestCreateSheet"/>
+      </group> <!-- CREATE_SHEET_VALID_SCENARIOS -->
+    </groups>
+    <test name="Command line test" duration-ms="25245" started-at="2019-07-31T23:36:08Z" finished-at="2019-07-31T23:36:33Z">
+      <class name="com.smartsheet.internal.functional.TestCreateSheet">
+        <test-method status="PASS" signature="setupBeforeTest()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="setupBeforeTest" is-config="true" duration-ms="21870" started-at="2019-07-31T19:36:08Z" finished-at="2019-07-31T19:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method status="PASS" signature="Test00_CreateSheetInSheetsFolder()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test00_CreateSheetInSheetsFolder" duration-ms="559" started-at="2019-07-31T19:36:30Z" finished-at="2019-07-31T19:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test00_CreateSheetInSheetsFolder -->
+        <test-method status="PASS" signature="Test01_CreateSheetInFolder()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test01_CreateSheetInFolder" duration-ms="413" started-at="2019-07-31T19:36:31Z" finished-at="2019-07-31T19:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_CreateSheetInFolder -->
+        <test-method status="PASS" signature="Test02_CreateSheetInWorkspace()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test02_CreateSheetInWorkspace" duration-ms="437" started-at="2019-07-31T19:36:31Z" finished-at="2019-07-31T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02_CreateSheetInWorkspace -->
+        <test-method status="PASS" signature="Test03_CreateSheetInSheetsFolderWithNoSheetName()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test03_CreateSheetInSheetsFolderWithNoSheetName" duration-ms="224" started-at="2019-07-31T19:36:32Z" finished-at="2019-07-31T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03_CreateSheetInSheetsFolderWithNoSheetName -->
+        <test-method status="PASS" signature="Test04_CreateSheetInSheetsFolderWithInvalidSecurityToken()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test04_CreateSheetInSheetsFolderWithInvalidSecurityToken" duration-ms="618" started-at="2019-07-31T19:36:32Z" finished-at="2019-07-31T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test04_CreateSheetInSheetsFolderWithInvalidSecurityToken -->
+        <test-method status="PASS" signature="Test05_CreateSheetInSheetsFolderWithNoSecurityToken()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test05_CreateSheetInSheetsFolderWithNoSecurityToken" duration-ms="113" started-at="2019-07-31T19:36:32Z" finished-at="2019-07-31T19:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test05_CreateSheetInSheetsFolderWithNoSecurityToken -->
+        <test-method status="PASS" signature="Test06_CreateSheetInSheetsFolderWithNoContentType()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test06_CreateSheetInSheetsFolderWithNoContentType" duration-ms="115" started-at="2019-07-31T19:36:33Z" finished-at="2019-07-31T19:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test06_CreateSheetInSheetsFolderWithNoContentType -->
+        <test-method status="PASS" signature="Test07_CreateSheetInSheetsFolderWithInvalidContentType()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test07_CreateSheetInSheetsFolderWithInvalidContentType" duration-ms="113" started-at="2019-07-31T19:36:33Z" finished-at="2019-07-31T19:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test07_CreateSheetInSheetsFolderWithInvalidContentType -->
+        <test-method status="PASS" signature="Test08_CreateSheetInInvalidFolder()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test08_CreateSheetInInvalidFolder" duration-ms="103" started-at="2019-07-31T19:36:33Z" finished-at="2019-07-31T19:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test08_CreateSheetInInvalidFolder -->
+        <test-method status="PASS" signature="Test09_CreateSheetInInvalidWorkspace()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="Test09_CreateSheetInInvalidWorkspace" duration-ms="106" started-at="2019-07-31T19:36:33Z" finished-at="2019-07-31T19:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test09_CreateSheetInInvalidWorkspace -->
+        <test-method status="PASS" signature="tearDownAfterTest()[pri:0, instance:com.smartsheet.internal.functional.TestCreateSheet@4411d970]" name="tearDownAfterTest" is-config="true" duration-ms="386" started-at="2019-07-31T19:36:33Z" finished-at="2019-07-31T19:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTest -->
+      </class> <!-- com.smartsheet.internal.functional.TestCreateSheet -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
